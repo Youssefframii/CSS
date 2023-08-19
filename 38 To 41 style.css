@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+    Vendor Prefixes
+*/
+
+/* 
+    Border Radius
+*/
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px auto;
+    border-radius: 3%;
+} */
+
+/* 
+    Box Shadow And Examples
+        H-Shadow | Y-Shadow | Blur | Spread | Color | Inset
+*/
+
+/* div {
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 3px;
+    box-shadow:
+        0px 0px 10px 0px rgb(59 73 77 / 35%),
+        0px 0px 10px 0px rgba(0, 200, 255, 0.35),
+        0px 0px 10px 0px rgba(39, 155, 0, 0.35);
+} */
+
+/* 
+    The Box Model 
+    Box Sizing
+*/
+
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.one {
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 10px solid red;
+} */
+
+/* PRATICA */
+
+/* div {
+    background-color: #eee;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow:
+        -5px -5px 0 0 #e91e63, 5px 5px 0 0 #2196f3;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    position: relative;
+    counter-increment: num;
+}
+
+div::after {
+    content: 'Element';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -10px;
+}
+
+div::before {
+    content: counter(num);
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+    width: 15px;
+    height: 15px;
+    padding: 1px 2px 3px 2px;
+    margin: 3px auto;
+    border-radius: 50%;
+    position: absolute;
+    top: -17px;
+    right: 38px;
+    font-weight: bold;
+} */
+
+/* div {
+    background-color: #efefef;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* translate (X, Y) from origin */
+/* box-shadow: 
+    2px 2px 8px 4px rgba(0, 0, 0, 0.3) inset, 
+    -2px -2px 8px 4px rgba(0, 0, 0, 0.3) inset;
+    border-top-left-radius: 15% 30%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 15% 30%;
+} */
+
+/* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+div.parent {
+    width: 550px;
+    margin: 25px auto;
+    position: relative;
+}
+
+.basic,
+.pro {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #eee;
+    position: relative;
+    width: 205px;
+    text-align: center;
+}
+
+.basic::before {
+    content: 'Basic';
+    display: inline-block;
+    background-color: rgb(3, 169, 244);
+    color: white;
+    font-weight: bold;
+    margin: 5px 5px 12px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.basic::after {
+    content: 'Free';
+    display: inline-block;
+    background-color: #ddd;
+    color: black;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 5px;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 165px;
+}
+
+.pro::before {
+    content: 'Pro';
+    display: inline-block;
+    background-color: rgb(3, 169, 244);
+    color: white;
+    font-weight: bold;
+    margin: 5px 5px 12px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.pro::after {
+    content: '$30';
+    display: inline-block;
+    background-color: #ddd;
+    color: black;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 5px;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 165px;
+}
+
+.bor::after {
+    content: "or";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(21%, -50%);
+    background-color: rgb(3, 169, 244);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 3.5px 0 0 0;
+    margin: 2px 0 0 0;
+    width: 27px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.bor::before {
+    content: "";
+    position: absolute;
+    right: 51.3%;
+    top: 6.6%;
+    width: 0px;
+    height: 275.4px;
+    border-color: transparent rgb(3, 169, 244) transparent transparent;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+}

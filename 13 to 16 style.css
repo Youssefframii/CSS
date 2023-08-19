@@ -1,0 +1,92 @@
+/* .one {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.two {
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.three {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+
+.four {
+    border-bottom: 2px solid black;
+    color: black;
+} */
+
+/* Grouping */
+/* .one,
+.two,
+.three,
+.four {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+} */
+
+/* Nesting */
+/* div.five {
+    color: chartreuse;
+    background-color: burlywood;
+    margin: auto;
+    padding: 10px;
+    width: 325px;
+} */
+
+/* Dimensions [ width, height ] */
+/* p {
+    display: inline-block;
+    background-color: red;
+    padding: 12px;
+    margin: 7px;
+    width: fit-content;
+    min-width: 150px;
+    max-width: 200px; 
+    min-height: auto;
+    max-height: fit-content;
+} */
+
+/* Overflow X and Y */
+/* div.bla {
+    text-align: justify;
+    width: 150px;
+    height: 150px;
+    background-color: #EEE;
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px teal solid;
+    overflow-x: auto;
+    overflow-y: auto;
+} */
+
+/* Pratica */
+div.parent div.child span.title {
+    color: red;
+}
+
+div.parent span.title {
+    color: blue;
+}
+
+div.parent p,
+div.title {
+    color: green;
+}
+
+div.parent1 .title-one,
+.title-two,
+.title-three,
+.title-four {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    max-width: 400px;
+    /* height: auto; */
+    max-height: 50px;
+    overflow: auto;
+}

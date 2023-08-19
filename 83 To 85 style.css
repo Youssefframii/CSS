@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Media Queries And Responsive Designs */
+
+/* .parent {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.parent>div {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 290px;
+} */
+
+/* Intro */
+
+/* @media print {
+    .parent>div {
+        font-size: 100px;
+    }
+}
+
+@media print {
+    .parent>div:first-child {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .parent>div {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .parent>div {
+        background-color: blue;
+    }
+} */
+
+
+/*
+  Media Queries
+  Responsive Design
+  - Concept Of Width
+  - Mobile
+  - Small Screens
+  - Medium Screens
+  - Large Screens
+  - Future Updates
+*/
+
+
+/* Mobile */
+
+/* @media (max-width: 767px) {} */
+
+/* Small Screens */
+
+/* @media (min-width: 768px) and (max-width: 991px) {} */
+
+/* Medium Screens */
+
+/* @media (min-width: 992px) {} */
+
+/* Large Screens */
+
+/* @media (min-width: 1200px) {} */
+
+/* Custom */
+
+/* @media (max-width: 1199px) {} */
+
+
+/*
+  Media Queries
+  Responsive Design
+  - Mobile First
+  - Test Devices
+*/
+
+
+
+/* .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.parent>div {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 5px;
+} */
+
+/* Mobile */
+
+/* @media (max-width: 767px) {} */
+
+/* Small Screens */
+
+/* @media (min-width: 768px) {
+    .parent>div {
+        width: calc(50% - 10px);
+    }
+} */
+
+/* Medium Screens */
+
+/* @media (min-width: 992px) {
+    .parent>div {
+        width: calc(25% - 10px);
+    }
+} */
+
+/* Large Screens */
+
+/* @media (min-width: 1200px) {} */
+
+/* Custom */
+
+/* @media (max-width: 1199px) {} */
+
+
+/* === PRATICA === */
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.parent>div {
+    background-color: #eee;
+    margin: 10px;
+    padding: 14px 14px 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+div :not(.parent)::after {
+    content: 'This Is Product';
+    font-weight: normal;
+    font-size: 15px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+@media (min-width:768px) {
+    /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:801px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .parent>div.one {
+        color: red;
+        width: calc(100% - 20px);      
+    }
+    .parent>div.two,
+    .parent>div.three,
+    .parent>div.four {
+        color: red;
+        width: calc((100% / 3) - 20px);      
+    }
+    div :not(.parent)::after {
+        color: black;
+    }
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .parent>div.one,
+    .parent>div.four {
+        color: #1ba094;
+        width: calc(100% - 20px);      
+    }
+    .parent>div.two,
+    .parent>div.three {
+        color: #1ba094;
+        width: calc(50% - 20px);      
+    }
+    div :not(.parent)::after {
+        color: black;
+    }
+}

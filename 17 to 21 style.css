@@ -1,0 +1,104 @@
+/* Text-shadow  =>  H-Shadow,
+                    v-Shadow,
+                    Blur
+                    Color   */
+
+div1 {
+    background-color: #eee;
+    padding: 10px;
+    text-shadow: 1px 1px 3px red;
+}
+
+/* 
+text-align 
+Alignment
+Direction
+Vertical Alignment
+*/
+
+div1 {
+    text-align: center;
+    direction: ltr;
+    vertical-align: middle;
+}
+
+/* 
+    text 
+        decoration,
+        transformation
+*/
+
+div1 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/* 
+    Text Spacing
+*/
+
+div1 {
+    letter-spacing: 1px;
+    /* text-indent: 100px; */
+    line-height: 1.6;
+    word-spacing: 1px;
+    width: 500px;
+    white-space: nowrap;
+    /* word-break: break-all; */
+}
+
+/* text overflow */
+
+div1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* div.pratica {
+    background-color: #eee;
+    text-transform: capitalize;
+    color: black;
+    text-shadow: 0.5px 0.5px 0.5px red, 1px 1px 0px blue, 1.5px 1.5px 0px rebeccapurple;
+} */
+
+/* .one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+} */
+
+/* div {
+    background-color: darkgray;
+    padding: 10px;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+} */
+
+div {
+    background-color: rgb(21, 129, 129);
+    text-align: center;
+    width: fit-content;
+    padding: 7px 13px;
+    margin: auto;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(2, 35, 35);
+    border-bottom-style: solid;
+}
+
+a {
+    display: inline-block;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}

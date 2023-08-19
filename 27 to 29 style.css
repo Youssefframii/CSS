@@ -1,0 +1,140 @@
+/* 
+    float
+    clear
+*/
+
+/* .parent {
+    background-color: red;
+    padding: 10px;
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: 25%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+} */
+
+
+
+/* 
+    * CALC
+
+content width is 100%
+N1 spaces (N elements + 1) = N2px * N1 => N3px from content width
+100% - N3px available space
+N elements --> the width is: (100% - N3px) / N elements
+*/
+
+/* body {
+    margin: 0;
+} */
+
+/* div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: calc((100% - 60px) / 5);
+    margin-left: 10px;
+} */
+
+/* 
+    Opacity
+*/
+
+/* .one {
+    background-color: red;
+    opacity: 0.6;
+}
+
+.two {
+    background-color: rgba(255, 0, 0, 0.5);
+} */
+
+/* 
+    PRATICA
+*/
+
+/* 
+    * CALC
+
+content width is 100%
+N1 spaces (N elements + 1) = N2px * N1 => N3px from content width
+100% - N3px available space
+N elements --> the width is: (100% - N3px) / N elements
+*/
+
+.parent {
+    width: 800px;
+    padding: 0;
+    background-color: #eee;
+    float: left;
+}
+
+.terzo,
+.mezzo,
+.quarto,
+.p {
+    background-color: #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.p {
+    width: calc((100% - 30px) / 1);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.terzo {
+    /* 15px * 4 => 60 */
+    width: calc((100% - 60px) / 3);
+    margin-left: 15px;
+}
+
+.mezzo {
+    /* 15px * 3 => 45 */
+    width: calc((100% - 45px) / 2);
+    margin-left: 15px;
+}
+
+.quarto {
+    /* 15px * 5 => 75 */
+    width: calc((100% - 75px) / 4);
+    margin-left: 15px;
+}
+
+hr {
+    clear: both;
+}
+
+.normal,
+.one,
+.two{
+    padding: 10px;
+    margin: 10px;
+}
+
+.normal {
+    background-color: rgb(169, 169, 169);
+}
+
+.one {
+    background-color: rgba(169, 169, 169, 0.1);
+}
+
+.two {
+    background-color: rgb(169, 169, 169);
+    opacity: 0.1;
+}

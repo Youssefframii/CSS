@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(189, 185, 185);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 50%;
+    border: 5px solid rebeccapurple;
+    border-left-color: transparent; */
+
+/* animation-name: spin; */
+/* animation-duration: 3s; */
+/* animation-iteration-count: infinite; */
+/* animation-timing-function: linear; */
+/* animation-direction: reverse; */
+/* animation-delay: 1s; */
+/* animation-fill-mode: both; */
+/* animation-play-state: running; */
+/* animation: spin 3s linear 1s infinite reverse both; */
+
+/* transition: transform .3s; */
+/* animation-name: change-color; 
+}*/
+
+/* div:hover {
+    animation-play-state: paused;
+} */
+
+/* @keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+} */
+
+/* @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+/* ANIMATION PROVA */
+
+/* body {
+    background-color: rgb(73, 73, 73)
+}
+
+.load {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.load div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: royalblue;
+    margin: 10px;
+    animation-name: loading;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.two {
+    animation-delay: 0.2s;
+}
+
+.three {
+    animation-delay: 0.4s;
+}
+
+@keyframes loading {
+    to {
+        opacity: 0.3;
+        transform: translateY(20px);
+    }
+} */
+
+/* PRATICA */
+
+/* div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid #2392d6;
+    border-left-color: transparent;
+    background-color: transparent;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div:hover {
+    animation-play-state: paused;
+}
+
+div:hover::after {
+    animation-play-state: paused;
+}
+
+div:hover::before {
+    animation-play-state: paused;
+}
+
+div::before {
+    content: '';
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid #fca200;
+    border-left-color: transparent;
+    background-color: transparent;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div::after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid #000000;
+    border-left-color: transparent;
+    background-color: transparent;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+} */
+
+/* span {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #eee;
+    border: 2px solid black;
+    border-left-color: transparent;
+    border-radius: 50%;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+} */

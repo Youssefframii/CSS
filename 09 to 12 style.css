@@ -1,0 +1,99 @@
+/* Border: width, color, style */
+div.try-border {
+    background-color: rgb(91, 255, 255);
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    /* border-width: 10px;
+    border-color: black rgb(84, 84, 177) rgb(0, 255, 123) red;
+    border-style: solid dashed dotted double; */
+    border: 7px black solid;
+    outline: 5px blue dashed;
+}
+
+/* 
+    * Block
+
+    - take full width if no width
+    - Add line break
+    - Respect padding, margin, width, hight
+    */
+
+/* 
+    * Inline
+
+    - DO NOT Add line break
+    - respect padding and margin [ left + right ]
+    - DO NOT width, hight
+    - Allow elements before and after it
+*/
+
+/* 
+    * Inline-Block
+
+    - Allow elements before and after it
+    - Respect padding, margin, width, hight 
+*/
+
+span {
+    background-color: rgb(82, 149, 208);
+    /* width: 500px;
+    padding: 10px;
+    margin: 10px; */
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    /* display: none, block; */
+    /* visibility: visible , hidden; */
+}
+
+/* div {
+    display: inline;
+    padding: 20px;
+    margin: 10px;
+    background-color: darkgrey;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 5px;
+}
+
+.assign-1-shape-1 {
+    border: 5px red solid;
+}
+
+.assign-1-shape-2 {
+    border-color: blue green;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.assign-1-shape-3 {
+    border-color: red green blue yellow;
+    border-width: 5px;
+    border-style: dashed;
+} */
+
+div {
+    background-color: darkgrey;
+    padding: 10px;
+    margin: 20px;
+    outline-width: 10px;
+    outline-color: darkgray;
+    outline-style: solid;
+}
+
+.assign-2-shape-1 {
+    border-left: 5px solid black;
+
+}
+
+.assign-2-shape-2 {
+    visibility: hidden;
+    border-left: 5px solid blue;
+}
+
+.assign-2-shape-3 {
+    border-left: 5px solid blue;
+}

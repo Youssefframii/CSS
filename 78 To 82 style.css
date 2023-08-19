@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===  PART 1 === */
+
+/*
+    CSS Selectors
+    - *
+    - Element => [p, div, h2]
+    - Element OtherElement => div p
+    - .class-name
+    - #id-name
+    - .parent .child
+    - .class-one.class-two
+    - .class-name div, .class-name p
+    - Element.class-name => p.class-name
+    - .parent > .child => Direct Child
+    */
+
+/* ===  PART 2 === */
+
+/*
+    CSS Selectors
+    - Element + Other Element => [div + p]
+    - Element ~ Other Elements => [p ~ div]
+    - [Attribute]
+    - Element[Attribute]
+    - [Attribute=Value]
+    - Element[Attribute=Value] => input[type="submit"]
+    - [Attribute~=Value] => Contains A Word
+    - [Attribute*=Value] => Contains A String
+    - [Attribute^=Value] => Start With A String
+    */
+
+/* ===  PART 3 === */
+
+/*
+    CSS Selectors
+    - Element:first-child
+    - Element:last-child
+    - Element:first-of-type
+    - Element:last-of-type
+    - Element:only-child
+    - Element:only-of-type
+    */
+
+/* ===  PART 4 === */
+
+/*
+    CSS Selectors
+    - :not(Selectors)
+    - :nth-child(n)
+    - :nth-last-child(n)
+    - :nth-of-type(n)
+    - :nth-last-of-type(n)
+    */
+
+/* ===  PART 5 === */
+
+/*
+    CSS Selectors
+    - :root
+    - :checked
+    - :empty 
+    - :disabled
+    - :required
+    - :focus
+    - ::selection
+    - ::placeholder
+    */
+
+
+/* === PRATICA === */
+
+/* div.main.red { color: red; }  = 1 = */
+
+/* div.parent>.child:last-child { color: red; } = 2 = */
+
+/* div:nth-child(2).parent .baby { color: red; } = 3 = */
+
+/* div:nth-of-type(2) p + div { color: red; } = 5 = */
+
+/* div:first-child div:nth-child(3),
+div:nth-of-type(2) div:nth-child(4) {
+    color: red;
+}   = 6 =*/
+
+/* div:first-of-type div:nth-child(5) { color: red; }  = 7 = */
+
+/* div h3:first-of-type,
+div h3:last-of-type,
+div div:first-child,
+div div:last-child {
+    color: red;
+} */
+
+/* :root div:nth-child(4),
+:root div:nth-child(5),
+:root div:nth-child(6),
+:root div:not(.parent) div
+{
+    color: red;
+} */

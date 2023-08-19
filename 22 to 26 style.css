@@ -1,0 +1,126 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* div {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    border: 3px solid red;
+} */
+
+/* 
+        inheritance
+    */
+/* p {
+    border: inher it;
+    padding: inherit;
+} */
+
+/* 
+    font family
+*/
+
+/* .ser {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sen {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mukta {
+    font-family: 'Mukta', sans-serif;
+}
+
+.ser,
+.sen,
+.mukta {
+    background-color: #eee;
+    padding: 20px;
+    font-size: xx-large;
+} */
+
+/* 
+CSS Units
+    px
+    1em => 1 time من الحجم الاساسي للاب
+    1rem => 1 root time [html]
+    percentage
+    vm => viewPort width
+
+    default font size for web page is 16px
+*/
+
+/* 
+    font style
+    font variant
+    font weight
+*/
+
+/* div {
+    font-family: 'Mukta', sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight:
+        /*300
+        bold;
+} */
+
+/* Mouse cursor */
+/* div {
+    cursor: crosshair;
+} */
+
+div.assign-1 {
+    width: 500px;
+    border: 2px solid blue;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+p {
+    background-color: #eee;
+    border: inherit;
+    padding: inherit;
+    text-align: center;
+    margin: 20px;
+}
+
+div.assign-2-1 {
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+div.assign-2-2 {
+    font-family: 'Cairo', sans-serif;
+    text-transform: capitalize;
+}
+
+div.assign-2-3 {
+    font-family: 'Jomhuria', cursive;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 20px;
+}
+
+div.assign-3-1 {
+    font-size: 2.5rem;
+    font-size: 50px;
+}
+
+div.assign-3-2 {
+    font-size: 2rem;
+    font-size: 40px;
+}
+
+div.assign-3-3 {
+    font-size: 1.5rem;
+    font-size: 30px;
+}
